@@ -71,7 +71,7 @@ However, every time the branch predictor is wrong about its prediction, it has t
 
 ### Random Input confusing the Branch Predictor
 
-If the input data is nearly random, that is, the odds of each of the two code paths in a branching point are nearly 50/50, then no amount good statistical analysis going to of any help. The branch predictor cannot discover a pattern where there is absolutely none. In such a case, the odds of the branch predictor being wrong is also 50/50. This leads to stalling in CPU, and causes a significant drop in the program execution speed.
+If the input data is nearly random, that is, the odds of each of the two code paths in a branching point are nearly 50/50, then no amount good statistical analysis is going to be of any help. The branch predictor cannot discover a pattern where there is absolutely none. In such a case, the odds of the branch predictor being wrong is also 50/50. This leads to stalling in CPU, and causes a significant drop in the program execution speed.
 
 Thus, nearly random input data confuses the branch predictor.
 
